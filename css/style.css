@@ -596,7 +596,6 @@ address {
   font-family: "Roboto", sans-serif;
   min-width: 165px;
   height: 40px;
-  gap: 16px;
   border-radius: 4px;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -609,7 +608,8 @@ address {
   cursor: pointer;
 }
 
-.footer-soc-icon {
+.footer-form-icon {
+  margin-left: 16px;
 }
 
 /**----------modal-backdrop-------**/
@@ -776,8 +776,7 @@ address {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-
-.policy-span {
+.check-box-label span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -789,9 +788,16 @@ address {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
-.icon-chekbox {
+.policy-span {
+}
+
+.user-privacy {
+}
+
+.check-input:checked + .check-box-label span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -799,6 +805,7 @@ address {
 
 .privacy-policy {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .form-button {
