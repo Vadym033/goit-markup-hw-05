@@ -563,6 +563,7 @@ address {
 }
 
 .footer-label {
+  display: flex;
 }
 
 .footer-input {
@@ -587,10 +588,6 @@ address {
   letter-spacing: 0.04em;
 }
 
-.footer-btn {
-  margin-left: 24px;
-}
-
 .footer-btn-subscribe {
   display: flex;
   padding: 8px 24px;
@@ -610,6 +607,7 @@ address {
   letter-spacing: 0.04em;
   border: none;
   cursor: pointer;
+  margin-left: 24px;
 }
 
 .footer-soc-icon {
